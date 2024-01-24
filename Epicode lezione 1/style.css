@@ -1,0 +1,59 @@
+
+body {
+    margin: 0; padding: 0; box-sizing: border-box;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #fff; color: #000;
+}
+
+/* logo && banner */
+
+#header {width: 100%; text-align: center;}
+
+.logo {width: 300px; padding: 1rem 0;}
+
+#banner {
+    height: 46px;
+    background-color: #FFEAA7; 
+    border-top: 2px solid #FFBB64; 
+    color: #000;
+}
+
+/* recipes content img && description */
+
+#main {text-align: center; padding-top: 3rem; width: 30%;}
+#mainTitle { padding-bottom: 1rem; font-size: 2.5rem;}
+main p {font-size: 1.3rem; margin: 0 auto; padding-bottom: 1.5rem; line-height: 1.2;}
+
+
+#main-img {width: 100%; height: 800px; border-radius: 20px;}
+.source-img {color: gray; padding-top: 1rem;}
+
+.featured {text-align: left; border-left: 2px solid #FDE767; padding-left: 0.8rem; margin-bottom: 2rem;}
+
+
+/* ingredients list */
+
+#ingredientsList, #method {text-align: left;}
+
+.ingredientsTitle, .methodTitle {border-bottom: 1px solid #40A2D8; padding: 1.5rem 0;}
+
+.ingredientsItems h3 {padding-top: 1rem;}
+
+.listItems li{padding: 8px;}
+
+/* method */
+
+#method h3 {padding-top: 1.2rem;}
+.method-p {margin-top: 1.2rem;}
+
+
+   
+
+
+
+
+
+
+
+
